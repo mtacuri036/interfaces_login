@@ -1,0 +1,154 @@
+.registro1 {
+    height: 50px;
+    width: 1810px;
+    background-image: url('../imagenes/fondo.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 20px; 
+    color: white; 
+    position: relative; 
+    z-index: 1; 
+    min-height: 59vh; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+.usuario{
+    height: 44px;
+    width: 394px;
+}
+.contraseña{
+    height: 44px;
+    width: 394px;
+
+}
+.rol{
+    background-color: #ffffff;
+    height: 50px;
+
+}
+.rol1{
+    background-color: #EC6363;
+    gap: 5px;
+    height: 50px;
+}
+.rol2{
+    background-color: #ffffff;
+    gap: 5px;
+    height: 50px;
+}
+.registro{
+    padding: 15px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: none;
+    width: 400px;
+    background-color:  #dddddd;
+    gap: 5px;
+    
+}
+
+.rol h1{
+    color: black;
+    text-align: center;
+    padding-top: 13px;
+
+  
+}
+.rol1 h3{
+    text-align: center;
+    padding-top: 15px;
+    color: #ffffff;
+
+}
+.menu{
+    height: 120px;
+    gap: 5px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    background-color:#bab9be;
+}
+
+.color_a{
+    height: 50px;
+    gap: 5px;
+    background-color:#EC6363;
+    grid-column: 1/6;
+    grid-row: 1/3;
+}
+
+.color_b{
+    height: 50px;
+    background-color:#ffffff;
+    grid-column: 1/6;
+    grid-row: 5;
+    color:#EC6363;
+}
+
+.logo{
+    grid-column: 3;
+    grid-row: 2/4;
+    text-align: center;
+    padding: auto;
+}
+
+
+.boton_b{
+    margin-top: 15px;
+    text-align: center;
+    grid-row: 4;
+    grid-column: 5;
+}
+
+.boton{
+    height: 30px;
+    width: 250px;
+    background-color: #EC6363;
+    color: black;
+}
+
+.imagen_logo{
+    width: 90px;
+    height: 90px;
+
+}
+
+.pie{
+    height: 200px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.pie_uno{
+    grid-column: 1;
+    grid-row: 4;
+    text-align: center;
+}
+
+.pie_dos{
+    grid-column: 2;
+    grid-row: 4;
+    text-align: center;
+}
+
+.pie_tres{
+    grid-column: 3;
+    grid-row: 4;
+    text-align: center;
+}
+
+.pie_cuatro{
+    background-color: #EC6363;
+    grid-row: 5;
+    grid-column: 1/4;
+    color: #EC6363;
+}
+
+.redes{
+    width: 180px;
+    height: 50px;
+}
